@@ -1,0 +1,6 @@
+Model,Makespan (sec),SLA Viol (%),DMR (%),CPU Util (%),Energy (kWh),Time (s)
+FCFS,166.41,17.2,5.8,96.84,7.68,0.02
+Min-Min,170.12,14.0,10.6,93.13,7.73,0.71
+Deep Q-Learning,654.05,63.0,54.4,37.0,17.47,0.02
+Proposed (RL-GA-LSTM-AE),172.27,13.0,5.4,94.32,7.79,0.06
+Our Improved (DAG + DVFS),167.74,11.8,3.6,94.33,7.68,0.06
