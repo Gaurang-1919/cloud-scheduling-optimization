@@ -1,9 +1,8 @@
-\documentclass[sn-mathphys-num]{sn-jnl}
+\documentclass[default,sn-mathphys-num]{sn-jnl}
 
 \usepackage{graphicx}
 \usepackage{multirow}
 \usepackage{amsmath,amssymb,amsfonts}
-\usepackage{amsthm}
 \usepackage{mathrsfs}
 \usepackage[title]{appendix}
 \usepackage{xcolor}
@@ -15,7 +14,15 @@
 \usepackage{algpseudocode}
 \usepackage{listings}
 \usepackage{url}
-\usepackage{subcaption}
+
+\theoremstyle{thmstyleone}
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}[theorem]{Proposition}
+\theoremstyle{thmstyletwo}
+\newtheorem{example}{Example}
+\newtheorem{remark}{Remark}
+\theoremstyle{thmstylethree}
+\newtheorem{definition}{Definition}
 
 \raggedbottom
 
@@ -709,7 +716,7 @@ Future research will extend this framework toward multi-region edge-cloud federa
 \begin{itemize}
     \item \textbf{Funding:} No external funding was received for this investigation.
     \item \textbf{Conflict of Interest:} The authors declare that they have no conflict of interest or competing financial interests.
-    \item \textbf{Data, Code, and Overleaf Workspace Availability:} All simulation scripts, benchmark datasets, neural model weights, and presentation materials are publicly available in our GitHub repository: \url{https://github.com/Gaurang-1919/cloud-scheduling-optimization}. Furthermore, the complete Springer Nature LaTeX manuscript workspace is accessible via Overleaf: \url{https://www.overleaf.com/project/cloud-scheduling-optimization}.
+    \item \textbf{Data, Code, and Overleaf Workspace Availability:} All simulation scripts, benchmark datasets, neural model weights, and presentation materials are publicly available in our GitHub repository: \url{https://github.com/Gaurang-1919/cloud-scheduling-optimization}. Furthermore, the complete Springer Nature LaTeX manuscript workspace is accessible via Overleaf: \url{https://www.overleaf.com/latex/templates/springer-nature-latex-template/gsvvftmrppwq}.
     \item \textbf{Authors' Contributions:} Gaurang and Harish Chand Meena contributed equally to conceptualization, mathematical formulation, algorithmic implementation, simulation benchmarking, and manuscript preparation.
 \end{itemize}
 
