@@ -43,7 +43,7 @@ class NumberedCanvas(canvas.Canvas):
         # Header (Pages 2+)
         if self._pageNumber > 1:
             self.drawString(54, 750, "Co-Evolutionary RL-GA with Critical-Path DAG and DVFS Cloud Scheduling")
-            self.drawRightString(558, 750, "Gaurang and Meena")
+            self.drawRightString(558, 750, "Gaurang and Harish")
             self.setStrokeColor(colors.HexColor("#cbd5e1"))
             self.setLineWidth(0.5)
             self.line(54, 744, 558, 744)
@@ -835,7 +835,7 @@ def build_pdf():
     # DECLARATIONS & REFERENCES
     # =========================================================================
     story.append(Paragraph("Declarations", h1_style))
-    story.append(Paragraph("<b>Funding:</b> No external funding was received for this study.<br/><b>Conflict of Interest:</b> The authors declare that they have no competing financial interests.<br/><b>Data, Code, and Overleaf Workspace Availability:</b> All source code, simulation environments, and experimental benchmarks are publicly available on GitHub at: <font color='#1d4ed8'><a href='https://github.com/Gaurang-1919/cloud-scheduling-optimization'><u>https://github.com/Gaurang-1919/cloud-scheduling-optimization</u></a></font>. The complete Springer Nature LaTeX manuscript and live editing workspace are also hosted on Overleaf at: <font color='#1d4ed8'><a href='https://www.overleaf.com/project/6af89462a6b4fbf99f1afded/share#d1d42196d4c6c82f2e81aac36419c0ccbbd0d131f858b99e'><u>Overleaf Live Workspace (Click to Open)</u></a></font>.<br/><b>Authors' Contributions:</b> Gaurang and Harish Chand Meena contributed equally to conceptualization, mathematical modeling, simulation benchmarking, and manuscript writing.", body_style))
+    story.append(Paragraph("<b>Funding:</b> No external funding was received for this study.<br/><b>Conflict of Interest:</b> The authors declare that they have no competing financial interests.<br/><b>Data, Code, and Overleaf Workspace Availability:</b> All source code, simulation environments, and experimental benchmarks are publicly available on GitHub at: <font color='#1d4ed8'><a href='https://github.com/Gaurang-1919/cloud-scheduling-optimization'><u>https://github.com/Gaurang-1919/cloud-scheduling-optimization</u></a></font>. The complete Springer Nature LaTeX manuscript and live editing workspace are also hosted on Overleaf at: <font color='#1d4ed8'><a href='https://www.overleaf.com/project/6af89462a6b4fbf99f1afded/share#d1d42196d4c6c82f2e81aac36419c0ccbbd0d131f858b99e'><u>Overleaf Live Workspace (Click to Open)</u></a></font>.<br/><b>Authors' Contributions:</b> Gaurang and Harish contributed equally to conceptualization, mathematical modeling, simulation benchmarking, and manuscript writing.", body_style))
     story.append(Spacer(1, 6))
 
     story.append(PageBreak())
